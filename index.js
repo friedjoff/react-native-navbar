@@ -83,6 +83,7 @@ class NavigationBar extends Component {
     return (
       <View style={styles.navBarTitleContainer}>
         <Text
+          allowFontScaling={false}
           style={[style, colorStyle, ]}>
           {data.title}
         </Text>
